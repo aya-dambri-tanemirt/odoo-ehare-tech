@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Odoo
+*.log
+*.pid
+*.db
+*.zip
+*.bak
+
+# Filestore
+filestore/
+
+# Environment and secrets
+.env
+*.env
+
+# Virtual env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db

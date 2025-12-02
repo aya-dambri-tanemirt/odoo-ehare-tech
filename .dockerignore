@@ -1,0 +1,8 @@
+.git
+.gitignore
+node_modules
+__pycache__
+*.log
+.env
+*.zip
+*.tar.gz

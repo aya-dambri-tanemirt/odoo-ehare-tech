@@ -1,0 +1,29 @@
+// Define your custom colors
+$primary-color: #0c969c; // Red
+$primary-color-hover: #0c969c;
+$primary-color-border: #0c969c;
+
+// Override Odoo's primary button styles
+.btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color-border !important;
+    
+    &:hover {
+        background-color: $primary-color-hover !important;
+        border-color: $primary-color-border !important;
+    }
+    
+    &:focus, &.focus {
+        box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25) !important;
+    }
+}
+
+.o_btn_primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color-border !important;
+    
+    &:hover {
+        background-color: $primary-color-hover !important;
+        border-color: $primary-color-border !important;
+    }
+}
